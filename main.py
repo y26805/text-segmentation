@@ -6,11 +6,13 @@ import wget
 import zipfile
 import nltk
 from sklearn.feature_extraction.text import CountVectorizer
+from textsplit.tools import get_penalty, get_segments, P_k
+from textsplit.algorithm import split_optimal, split_greedy, get_total
 
 corpus_directory = './text8'
 corpus_url = 'http://mattmahoney.net/dc/text8.zip'
 transcript_path = './son.txt'
-
+segmented_text_path = './%s_%d.txt' % ('son', segment_len)
 
 def download_corpus(dir_name, url):
     # be sure your corpus is cleaned from punctuation and lowercased
@@ -35,6 +37,33 @@ def convert_model_to_df(model_path):
 def get_sentence_tokenizer():
     nltk.download('punkt')
     return nltk.data.load('tokenizers/punkt/english.pickle')
+
+
+def preprocess_text(path):
+    with open(path, 'rt') as f:
+        text = f.read().replace('Yahoo!', 'Yahoo')\
+            .replace('\n\n', '\n')\
+            .replace('\n', ' ¤')
+    return text
+
+
+def get_penalty(text, sentence_analyzer, model_df, segment_len=4):
+    sentenced_text = sentence_analyzer.tokenize(text)
+    vecr = CountVectorizer(vocabulary=model_df.index)
+    sentence_vectors = vecr.transform(sentenced_text).dot(model_df)
+    penalty = get_penalty([sentence_vectors], segment_len)
+    print('penalty %4.2f' % penalty)
+    return penalty, sentence_vectors
+
+
+def get_optimal_segmentation(sentenced_text, sentence_vectors, penalty):
+    optimal_segmentation = split_optimal(sentence_vectors, penalty, seg_limit=250)
+    # seg_limit is maximum number of sentences in a segment. optional
+    segmented_text = get_segments(sentenced_text, optimal_segmentation)
+    print('%d sentences, %d segments, avg %4.2f sentences per segment' % (
+        len(sentenced_text), len(segmented_text), len(sentenced_text) / len(segmented_text)))
+    return segmented_text
+
 
 
 train_model('wrdvecs-text8.bin', corpus_directory)
