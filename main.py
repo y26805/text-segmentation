@@ -54,12 +54,6 @@ def get_sentenced_vectors(text, sentence_analyzer, model_df):
     return vecr.transform(sentenced_text).dot(model_df)
 
 
-def get_penalty(sentence_vectors, length=4):
-    penalty = get_penalty([sentence_vectors], length)
-    print('penalty %4.2f' % penalty)
-    return penalty
-
-
 def get_optimal_segmentation(sentenced_text, sentence_vectors, penalty):
     optimal_segmentation = split_optimal(sentence_vectors, penalty, seg_limit=250)
     # seg_limit is maximum number of sentences in a segment. optional
