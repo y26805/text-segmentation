@@ -1,7 +1,6 @@
 import os
 import word2vec
 import pandas as pd
-import numpy as np
 import wget
 import zipfile
 import nltk
@@ -12,7 +11,9 @@ from textsplit.algorithm import split_optimal, split_greedy, get_total
 corpus_directory = './text8'
 corpus_url = 'http://mattmahoney.net/dc/text8.zip'
 transcript_path = './son.txt'
+segment_len = 4
 segmented_text_path = './%s_%d.txt' % ('son', segment_len)
+
 
 def download_corpus(dir_name, url):
     # be sure your corpus is cleaned from punctuation and lowercased
@@ -47,13 +48,16 @@ def preprocess_text(path):
     return text
 
 
-def get_penalty(text, sentence_analyzer, model_df, segment_len=4):
+def get_sentenced_vectors(text, sentence_analyzer, model_df):
     sentenced_text = sentence_analyzer.tokenize(text)
     vecr = CountVectorizer(vocabulary=model_df.index)
-    sentence_vectors = vecr.transform(sentenced_text).dot(model_df)
-    penalty = get_penalty([sentence_vectors], segment_len)
+    return vecr.transform(sentenced_text).dot(model_df)
+
+
+def get_penalty(sentence_vectors, length=4):
+    penalty = get_penalty([sentence_vectors], length)
     print('penalty %4.2f' % penalty)
-    return penalty, sentence_vectors
+    return penalty
 
 
 def get_optimal_segmentation(sentenced_text, sentence_vectors, penalty):
@@ -64,6 +68,3 @@ def get_optimal_segmentation(sentenced_text, sentence_vectors, penalty):
         len(sentenced_text), len(segmented_text), len(sentenced_text) / len(segmented_text)))
     return segmented_text
 
-
-
-train_model('wrdvecs-text8.bin', corpus_directory)
