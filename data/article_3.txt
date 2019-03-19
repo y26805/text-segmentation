@@ -1,0 +1,39 @@
+Money talks in the startup community, especially when SoftBank comes knocking with the megabucks of its Vision Fund.
+
+Despite the public outcry around the firm’s dependence on money from Saudi Arabia in the wake of that country’s assassination of Washington Post journalist Jamal Khashoggi, deal flow for SoftBank’s  Vision Fund appears to be back to normal.
+
+The $100 billion megafund has done 21 deals over the last two quarters; that’s more than in the other quarters of the previous year combined, according to data from Crunchbase, thanks to an uptick from Asia. Since the October 2 murder, there have been 11 investments in U.S. companies, seven in Asia, two in Europe and one in Latin America. Just this week, the fund completed a near $1.5 billion investment in Southeast Asia-based ride-hailing company Grab.
+
+While U.S. and European firms have more options, and therefore, perhaps deserve more scrutiny, SoftBank’s cash is increasingly the only game in town for startups in Asia, where there are fewer alternatives for later-stage capital outside of large Chinese private equity firms or tech giants — which come with their own risks.
+
+The Vision Fund is seen by some critics as tainted money for its links to the Saudi Royal family. Saudi Arabia’s Public Investment Fund (PIF) is the fund’s anchor investor and is controlled by Crown Prince Mohammad bin Salman, who has been strongly linked with the murder of Saudi journalist Jamal Khashoggi, an outspoken critic of the regime.
+
+Khashoggi, a Washington Post columnist, was murdered on October 2 after he entered the Saudi consulate in Istanbul. His visit was part of an effort to obtain divorce documents in order to marry his fiancée, but it ended with his apparently gruesome death. Audio clips suggest he was beheaded, dismembered and had his fingers severed before his body was dissolved in acid, although new reports suggest it may have been burned.
+
+The Vision Fund is designed to finance “global winners,” which, like all investment funds, is set up to provide “unfair advantages” to help its companies grow into hugely important businesses. On the financial end, as is the norm, it is built to provide handsome returns to the LPs, thus directly boosting the coffers of the PIF, the Saudi kingdom and, by extension, the Saudi prince himself.
+
+An investigation is ongoing, but there’s already plenty of evidence to suggest that the murder happened at the request of the prince.
+
+Sources within the U.S. State Department have reportedly said it is “blindingly obvious” that the Crown Prince ordered the killing — he reportedly threatened to shoot Khashoggi one year before. But, now that the apparent period of outrage is over, SoftBank has reverted back to writing checks and companies are taking them in spite of the links to Saudi Arabia.
+
+For startups, the money flow means that a major source of capital for growth or subsidies for customers comes from the Saudi royal family’s pockets — a regime that would reportedly not hesitate to murder a critical voice.SoftBank itself said it has a commitment to “the people” of Saudi Arabia that will see it deploy its capital unchanged, although chairman Masayoshi Son did concede that he will wait on the findings of the investigation into the murder before deciding on whether PIF will be involved in a second Vision Fund.
+
+The founders taking the capital have been more cautious. When questioned, executives talk about the specifics of their deal and their growth plans; most defer issues on the management of LPs, like PIF, to SoftBank. While offering words in support of the ongoing murder investigation, they manage to say little about the ethics of taking money from the Saudi regime.
+
+Bom Kim, CEO of Korean e-commerce company Coupang — which raised $2 billion from the Vision Fund — told TechCrunch in November that the allegations around the murder “don’t represent us and don’t represent [Vision Fund] companies.”
+
+“We are deeply concerned by the reported events and alongside SoftBank are monitoring the situation closely until the full facts are known,” Tokopedia CEO William Tanuwijaya told TechCrunch in December after the Vision Fund co-led a $1.1 billion round.OYO, the budget hotel network based out of India, did not respond to a request for comment sent the day before this story was published. The startup raised $1 billion led by the Vision Fund in September.
+
+TechCrunch was also unable to get a response to questions sent to Chehaoduo,  the Vision Fund’s first China-based startup, which raised $1.5 billion in February. The company is notable for being the only one of this group that didn’t count SoftBank as an existing investor prior to its Vision Fund deal.
+
+The latest addition to the collection is Grab,  the ride-hailing company in Southeast Asia that’s led by CEO Anthony Tan, who is very publicly a devout Christian. In a statement sent to TechCrunch this week, Grab defended its relationship with SoftBank, which first invested in Grab back in 2014:
+
+What happened to Jamal Khashoggi was obviously horrible. We hope whoever is responsible is held accountable. We are not in a position to comment on behalf of SoftBank but from our perspective Son-san and the entire SoftBank team have brought so much value to the table for Grab – beyond just financing. They have brought advice, mentorship and potential business opportunities. The Vision Fund is about investing for the next 100 or 200 years and investing in trends that will move the needle for humanity in positive ways. This is a lofty and ultimately positive goal.
+
+The Vision Fund is just getting started in Asia, however, with rumors suggesting it is planning to open offices in China and India. Singapore is presumably on that list, too, while the fund has been busy hiring a general team that will operate globally out of the U.S.
+
+To date, the fund’s focus in Asia has been on some of the region’s largest (highest-valued) companies, but as it develops a local presence it is likely to seek out less obvious deals to grow its portfolio. That’s going to mean this question of ethics and conscience around the Vision Fund’s capital will present itself to more founders in Asia. Going on what we’ve seen so far, most will have no problem taking the money and issuing platitudinous statements.
+
+Privately, VCs in the region whom we have canvassed have said that founders have little choice but to take the Vision Fund’s money. They explain that nobody else can offer billion-dollar-sized checks, while SoftBank is an existing investor in many of them already, which gives it additional leverage. The fund also takes the aggressive approach of threatening to back rival companies if it doesn’t get the deals it wants, as we saw when Son said he’d consider a deal with Lyft when its Uber investment was uncertain.
+
+That reality may be true — finding an alternative to a hypothetical $1 billion Vision Fund check is a daunting challenge — but we’ve reached a very sad time and place when the sheer size of an investment overrides important concerns about where that money came from.
